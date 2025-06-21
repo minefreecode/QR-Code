@@ -1,1 +1,18 @@
-Привет, я генератор бар-кодов
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Генератор QR-кодов</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<h1>{{.Title}}</h1>
+<div>Пожалуйста, введите строку которую вы хотите для QR-кода</div>
+<form action="generator/" method="post">
+    <input type="text" name="dataString">
+    <input type="submit" value="Отправить">
+</form>
+</body>
+</html>
